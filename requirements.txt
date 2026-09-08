@@ -1,0 +1,19 @@
+# ── Core ML / Data Science ─────────────────────────────────────────────────
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+scipy>=1.12              # indirect dependency of scikit-learn
+
+# ── Visualisation (used in analysis.ipynb) ────────────────────────────────
+matplotlib>=3.8
+seaborn>=0.13
+
+# ── Notebook environment ───────────────────────────────────────────────────
+jupyter>=1.0
+notebook>=7.0
+ipykernel>=6.0
+
+# ── Web deployment (Flask backend) ────────────────────────────────────────
+flask>=3.0
+flask-cors>=4.0
+
